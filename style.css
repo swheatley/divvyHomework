@@ -1,0 +1,64 @@
+/*!
+Theme Name: divvy
+Theme URI: http://divvy.shayleehansen.com
+Author: Shaylee Hansen
+Author URI: https://shayleehansen.com
+Description: Divvy WordPress and PHP homework assignment
+Version: 1.0
+License: GNU General Public License v2 or later
+
+*/
+
+/* Header */
+
+/*-- Nav ----*/
+
+.site-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+nav.main-navigation { width: 100%; }
+ul.menu {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+ul.menu a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+}
+ul.menu a:hover {
+	  color: purple;
+}
+/*** Content ***/
+.site-content {
+	padding: 2em 6%;
+}
+
+/**** Footer ***/
+.site-footer {
+	margin: 0 auto; background:#000;
+}
+.site-info {
+	display: flex;
+	align-items: center;
+	padding: 1em;
+	color: #fff;
+}
+.site-info a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*-- Favorite Quotes ---*/
+.favorite-quotes {
+    padding: 0.5em 1em 1em 0.5em;
+		margin: 0.5em;
+}
+.quote-author {
+	margin: 0 2em auto;
+}
